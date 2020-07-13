@@ -1,0 +1,42 @@
+/* Навигация страницы */
+.filter button {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* <!-- Портфолио работ -- >  */
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+/* Текст для ховера */
+/* .portfolio-desc {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+} */
+/* .portfolio-items a:hover,
+.portfolio-items a:focus {
+  background-color: var(--accent-color);
+  --secondary-text-color: #ffffff;
+} */
