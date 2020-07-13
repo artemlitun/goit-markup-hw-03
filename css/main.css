@@ -8,6 +8,8 @@ line-height: 1.36;
 /* text-align: center; */
 letter-spacing: 0.06em;
 text-transform: uppercase;
+outline: 2px solid purple;
+
 }
 
 /* <!-- Секция преимущества --> */
@@ -16,6 +18,8 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+outline: 2px solid purple;
+
 }
 
 .features-text {
@@ -23,6 +27,7 @@ color: var(--accent-text-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+outline: 2px solid purple;
 }
 
 /* <!-- Секция чем мы занимаемся --> */
@@ -34,6 +39,7 @@ font-size: 14px;
 line-height: 1.14;
 /* text-align: center; */
 text-transform: uppercase;
+outline: 2px solid purple;
 }
 
 /* <!-- Секция Наша команда --> */
@@ -46,8 +52,11 @@ color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+
 /* text-align: center; */
 letter-spacing: 0.03em;
+outline: 2px solid purple;
+
 }
 .team-item .function {
 color: var(--accent-text-color);
@@ -56,6 +65,7 @@ font-size: 16px;
 line-height: 1.19;
 /* text-align: center; */
 letter-spacing: 0.03em;
+outline: 2px solid purple;
 }
 
 /* <!-- Секция постоянные клиенты -->

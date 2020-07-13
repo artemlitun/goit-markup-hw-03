@@ -2,6 +2,7 @@
 .filter button {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+  outline: 2px solid orange;
 }
 .filter button:hover,
 .filter button:focus {
@@ -17,6 +18,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  outline: 2px solid orange;
 }
 
 .portfolio-text {
@@ -25,6 +27,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  outline: 2px solid orange;
 }
 
 /* Текст для ховера */

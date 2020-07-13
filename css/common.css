@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #ffffff;
@@ -6,17 +16,26 @@
   --secondary-bg-color: #f5f4fa;
   --accent-color: #2196f3;
 }
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  outline: 2px solid tomato;
+}
+img {
+  outline: 2px solid orange;
 }
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
+}
+.header {
+  outline: 2px solid tomato;
 }
 
 .logo {
@@ -26,10 +45,13 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  outline: 2px solid green;
 }
+
 .accent {
   color: var(--accent-color);
 }
+
 /* Site nav */
 .site-nav a {
   color: var(--primary-text-color);
@@ -37,6 +59,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 2px solid green;
 }
 
 .site-nav .link:hover,
@@ -53,6 +76,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 2px solid green;
 }
 
 .nav-contacts a:hover,
@@ -67,12 +91,14 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  outline: 2px solid green;
 }
 /* Футер */
 .footer {
   background-color: #2f303a;
   font-size: 14px;
   letter-spacing: 0.03em;
+  outline: 2px solid tomato;
 }
 .footer .logo {
   color: var(--primary-bg-color);
@@ -82,16 +108,19 @@ body {
   color: var(--primary-bg-color);
   font-style: normal;
   line-height: 1.71;
+  outline: 2px solid green;
 }
 .address a {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+  outline: 2px solid green;
 }
 .footer-subtitle {
   color: var(--primary-bg-color);
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  outline: 2px solid green;
 }
 .button {
   color: var(--secondary-text-color);
@@ -100,4 +129,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  outline: 2px solid green;
 }
