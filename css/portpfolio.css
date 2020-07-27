@@ -2,6 +2,8 @@
 .filter button {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+  padding: 6px 22px;
+  text-align: center;
   outline: 2px solid orange;
 }
 .filter button:hover,

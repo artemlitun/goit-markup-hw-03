@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/portpfolio.css" />
   </head>
@@ -44,191 +48,199 @@
       </nav>
     </header>
     <main>
+      <section class="filter">
+        <div class="container">
+          <!-- Фильтр страницы -->
+          <ul class="filter list">
+            <li>
+              <button type="button">Все</button>
+            </li>
+            <li>
+              <button type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button">Приложения</button>
+            </li>
+            <li>
+              <button type="button">Дизайн</button>
+            </li>
+            <li>
+              <button type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Портфолио работ -->
       <section class="portfolio">
-        <h1>Портфолио</h1>
-        <!-- Фильтр страницы -->
-        <ul class="filter list">
-          <li>
-            <button type="button">Все</button>
-          </li>
-          <li>
-            <button type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button">Приложения</button>
-          </li>
-          <li>
-            <button type="button">Дизайн</button>
-          </li>
-          <li>
-            <button type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <!-- Портфолио работ -->
-        <ul class="portfolio-items list">
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-1.jpg"
-                alt="Открытый ноутбук"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-text">Веб-сайт</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Технокряк это современная площадка распространения коронавируса.
-              Компании используют эту платформу для цифрового шпионажа и атак на
-              защищённые сервера конкурентов.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-2.jpg"
-                alt="Два баскетболиста с мячом"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-text">Дизайн</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-3.jpg"
-                alt="Логотип рыбного ресторана"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-text">Приложение</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-4.jpg"
-                alt="Большие наушники"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проект Prime</h2>
-              <p class="portfolio-text">Маркетинг</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-5.jpg"
-                alt="Две коробки"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проект Boxes</h2>
-              <p class="portfolio-text">Приложение</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-6.jpg"
-                alt="Монитор компьютера"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
-              <p class="portfolio-text">Веб-сайт</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-7.jpg"
-                alt="Открытый журнал"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Издание Limited Edition</h2>
-              <p class="portfolio-text">Дизайн</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-8.jpg"
-                alt="Бирка с логотипом компании"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проект LAB</h2>
-              <p class="portfolio-text">Маркетинг</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-          <li>
-            <a href="#" class="link">
-              <img
-                src="./images/img-9.jpg"
-                alt="Открытый ноутбук"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Growing Business</h2>
-              <p class="portfolio-text">Приложение</p>
-            </a>
-            <!-- Текст для ховера
-            <p class="portfolio-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
-              mollitia quasi ad placeat laboriosam.
-            </p> -->
-          </li>
-        </ul>
+        <div class="container">
+          <h1>Портфолио</h1>
+          <ul class="portfolio-items list">
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-1.jpg"
+                  alt="Открытый ноутбук"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак на
+                защищённые сервера конкурентов.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-2.jpg"
+                  alt="Два баскетболиста с мячом"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio-text">Дизайн</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-3.jpg"
+                  alt="Логотип рыбного ресторана"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-text">Приложение</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-4.jpg"
+                  alt="Большие наушники"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Проект Prime</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-5.jpg"
+                  alt="Две коробки"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Проект Boxes</h2>
+                <p class="portfolio-text">Приложение</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-6.jpg"
+                  alt="Монитор компьютера"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-7.jpg"
+                  alt="Открытый журнал"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Издание Limited Edition</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-8.jpg"
+                  alt="Бирка с логотипом компании"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Проект LAB</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+            <li>
+              <a href="#" class="link">
+                <img
+                  src="./images/img-9.jpg"
+                  alt="Открытый ноутбук"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-text">Приложение</p>
+              </a>
+              <!-- Текст для ховера
+              <p class="portfolio-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                laudantium. Nemo perspiciatis, corrupti voluptatem ducimus eum
+                mollitia quasi ad placeat laboriosam.
+              </p> -->
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
