@@ -89,6 +89,7 @@ img {
 .section-title {
   /* display: inline-block; */
   margin-top: 0;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
