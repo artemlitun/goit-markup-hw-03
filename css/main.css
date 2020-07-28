@@ -1,93 +1,105 @@
-
 /* <!-- Секция герой --> */
 .hero-slogan {
-/* color: var(--secondary-text-color); */
-margin-top: 0;
-margin-bottom: 30px;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-outline: 2px solid purple;
-
+  /* color: var(--secondary-text-color); */
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  outline: 2px solid purple;
 }
 .hero {
-    text-align: center;
+  text-align: center;
 }
 
 .hero .button {
-    padding: 10px 32px;
-    margin-bottom: 200px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
 }
 
 /* <!-- Секция преимущества --> */
-
+.features-items {
+  padding-top: 94px;
+  margin-bottom: 94px;
+  background-color: tomato;
+}
 .features-subtitle {
-margin-top: 0;
-margin-bottom: 10px;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
-outline: 2px solid purple;
-
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  outline: 2px solid purple;
 }
 
 .features-text {
-margin-top: 0;
-margin-bottom: 0;
-color: var(--accent-text-color);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-outline: 2px solid purple;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  outline: 2px solid purple;
 }
 
 /* <!-- Секция чем мы занимаемся --> */
-
+.about-items {
+  padding-bottom: 94px;
+  background-color: yellow;
+}
 .about-items .subtitle {
-/* color: var(--secondary-text-color); */
-margin-top: 0;
-margin-bottom: 0;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-/* text-align: center; */
-text-transform: uppercase;
-outline: 2px solid purple;
+  /* color: var(--secondary-text-color); */
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /* text-align: center; */
+  text-transform: uppercase;
+  outline: 2px solid purple;
 }
 
 /* <!-- Секция Наша команда --> */
 .team {
-background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
+.team .section-title {
+  padding-top: 94px;
+}
+.team-item {
+  padding-bottom: 94px;
+}
+.team-item .name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 
-.team-item .name{
-    margin-top: 30px;
-    margin-bottom: 10px;
-color: var(--primary-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-
-/* text-align: center; */
-letter-spacing: 0.03em;
-outline: 2px solid purple;
-
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  outline: 2px solid purple;
 }
 .team-item .function {
-    margin-top: 10px;
-    margin-bottom: 16px;
-color: var(--accent-text-color);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-/* text-align: center; */
-letter-spacing: 0.03em;
-outline: 2px solid purple;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  outline: 2px solid purple;
 }
 
-/* <!-- Секция постоянные клиенты -->
-
-
+/* Секция постоянные клиенты  */
+.clients .section-title {
+  padding-top: 94px;
+}
+.clients-items {
+  padding-bottom: 94px;
+}
