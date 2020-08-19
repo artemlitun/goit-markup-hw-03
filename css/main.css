@@ -11,11 +11,11 @@
 }
 .hero {
   text-align: center;
+  padding: 200px 0px;
 }
 
 .hero .button {
   padding: 10px 32px;
-  margin-bottom: 200px;
 }
 
 /* <!-- Секция преимущества --> */
@@ -23,7 +23,6 @@
 .features-items {
   display: flex;
   padding-top: 94px;
-  margin-bottom: 94px;
 }
 
 .features-items .item + .item {
@@ -61,9 +60,15 @@
 }
 
 /* <!-- Секция чем мы занимаемся --> */
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .about-items {
   display: flex;
-  padding-bottom: 94px;
+}
+.about-items img {
+  display: block;
 }
 
 .about-items .item + .item {
@@ -84,15 +89,16 @@
 /* <!-- Секция Наша команда --> */
 .team {
   background-color: var(--secondary-bg-color);
-}
 
-.team .section-title {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-item img {
+  display: block;
 }
 
 .team-item {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-item .item + .item {
@@ -134,9 +140,14 @@
 }
 
 /* Секция постоянные клиенты  */
-.clients .section-title {
+
+.clients {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
+/* .clients .section-title {
+  padding-top: 94px;
+} */
 
 .clients-logo {
   display: flex;
