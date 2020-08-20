@@ -50,7 +50,11 @@
   letter-spacing: 0.03em;
 }
 
+.portfolio-item-link img {
+  display: block;
+}
 /* Текст для ховера */
+
 /* .portfolio-desc {
   color: var(--secondary-text-color);
   font-weight: normal;
